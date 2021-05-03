@@ -29,6 +29,7 @@ namespace FunctionAppHeartSoundsML
             HeartData data = JsonConvert.DeserializeObject<HeartData>(requestBody);
 
             //Make Prediction
+            //var predictionResult = ConsumerModel.Predict(data);
 
             HeartPrediction prediction = _predictionEnginePool.Predict(modelName: "HeartModel", example: data);
 
