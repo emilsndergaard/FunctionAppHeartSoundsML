@@ -20,7 +20,7 @@ namespace FunctionAppHeartSoundsML
 
             if (_environment == "Development")
             {
-                _modelPath = ("C:\\Users\\emils\\source\\repos\\FunctionAppHeartSoundsML\\FunctionAppHeartSoundsML\\MLModels\\MLMozip");
+                _modelPath = ("C:\\Users\\emils\\source\\repos\\FunctionAppHeartSoundsML\\FunctionAppHeartSoundsML\\MLModels\\MLModel.zip");
             }
             else
             {
